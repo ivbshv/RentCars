@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCars</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__search">
+            <form action="#">
+                <input type="text" placeholder="Поиск авто">
+            </form>
+        </div>
+        <div class="header__logo">
+            <img src="icons/Logotype.svg" alt="logo">
+        </div>
+    </header>
+    <main class="promo">
+        <div class="promo__menu">
+            <nav class="promo__menu-list">
+                <ul>
+                    <li><a class="promo__menu-item promo__menu-item_active" href="#">Главная</a></li>
+                    <li><a class="promo__menu-item" href="#">Легковые</a></li>
+                    <li><a class="promo__menu-item" href="#">Внедорожники</a></li>
+                    <li><a class="promo__menu-item" href="#">VIP-авто</a></li>
+                    <li><a class="promo__menu-item" href="#">Спорткары</a></li>
+                    <li><a class="promo__menu-item" href="#">Минивэны</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="promo__content">
+            <div class="promo__bg">
+                <div class="promo__header">Новинка</div>
+                <div class="promo__title">Audi RS6 универсал </div>
+                <div class="promo__descr">Новый Ауди RS6 2021- сочетание комфорта универсала и нрава настоящего спорткара.</div>
+                <div class="promo__charact">
+                    <span>Объем двигателя: 4.0</span>
+                    <span>Мощность : 600 Л.С</span>
+                </div>
+            </div>
+            <div class="promo__interactive">
+                <div>
+                    <div class="promo__interactive-title">ПРОСМОТРЕННЫЕ МОДЕЛИ</div>
+                    <ul class="promo__interactive-list">
+                        <li class="promo__interactive-item">LAMBORGHINI URUS
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">AUDI R8
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">BMW X6 M
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">PORSCHE Boxter S Red
+                            <div class="delete"></div>
+                        </li>
+                        <li class="promo__interactive-item">Corvette C7
+                            <div class="delete"></div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="add">
+                        <div class="promo__interactive-title">ВЫБРАТЬ АВТО</div>
+                        <span>Введите название марки</span>
+                        <input class="adding__input" type="text" placeholder="Какой авто Вас интересует...?">
+                        <span>Забронировать?</span>
+                        <input type="checkbox">
+                        <span class="yes">Да!</span>
+                        <button>Подтвердить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="promo__adv">
+            <div class="promo__adv-title">Возможно, вам понравится</div>
+            <img src="img/porshe.jpg" alt="some picture">
+            <p>Porshe Panamera GTS</p>
+            <img src="img/gelik.jpg" alt="some picture">
+            <p>Mercedes Benz g63</p>
+            <img src="img/rr.jpg" alt="some picture">
+            <p>Rolls-Royce Wrath</p>
+
+        </div>
+    </main>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
